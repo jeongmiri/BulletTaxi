@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    .master{
+        width: 100%;
+        text-align: center;
+        overflow:hidden;
+    }
+    #master{
+        border-style: double;
+        border-width: 5px;
+        border-color: orange;
+        width: 300px;
+        height: 200px;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 38%;
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+    #master2{
+        border-style: solid;
+        border-width: 1pt;
+        border-color: orange;
+        text-align: center;
+        margin-left: 20%;
+        width: 180px;
+        height: 150px;
+    }
+    #tomain{
+        padding-left: 10px;
+        padding-right:10px;
+        border-style: none;
+        height: 27px;
+        width: 60px;
+        background-color: orange;
+        color: black;
+    }
+</style>
+</head>
+<body>
+
+<div class="master">
+    <div id = "master">
+        <img src="check.png" style="width: 60px;"><br><br>
+        <div name="show_reservation" id = "master2">//예약 내용//</div><br>
+        예약이 완료되었습니다.
+    </div><br>
+    <input type="button" name="toMain" id="tomain" onclick="location.href='select.html'" value="OK">
+</div>
+</body>
+</html>
